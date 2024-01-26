@@ -3,8 +3,16 @@
 .container{
 
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    'one one two five'
+    'three four four five';
+
+    gap: 2rem;
 
 }
+
 
 .daniel{
 
@@ -17,6 +25,8 @@
     color: hsl(0, 0%, 100%);
     padding: 2rem;
     border-radius: 0.5rem;
+
+    grid-area: one;
 
 }
 
@@ -82,6 +92,8 @@
     padding: 2rem;
     border-radius: 0.5rem;
 
+    grid-area: two;
+
 }
 
 .jonathan-heading{
@@ -101,6 +113,9 @@
     background-color: hsl(0, 0%, 100%);
     color: hsl(219, 29%, 14%);
     padding: 2rem;
+    border-radius: 0.5rem;
+
+    grid-area: three;
 
 }
 
@@ -121,6 +136,9 @@
     background-color: hsl(219, 29%, 14%);
     color: hsl(0, 0%, 100%);
     padding: 2rem;
+    border-radius: 0.5rem;
+
+    grid-area: four;
 
 }
 
@@ -141,6 +159,9 @@
     background-color: hsl(0, 0%, 100%);
     color: hsl(219, 29%, 14%);
     padding: 2rem;
+    border-radius: 0.5rem;
+
+    grid-area: five;
 
 }
 
