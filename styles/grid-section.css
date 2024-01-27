@@ -3,13 +3,13 @@
 .container{
 
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 0.5fr);
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: 
     'one one two five'
     'three four four five';
 
-    gap: 2rem;
+    gap: 1rem;
 
 }
 
@@ -35,8 +35,14 @@
     height: 2rem;
     width: 2rem;
     border-radius: 50%;
-    border: 2px solid hsl(210, 46%, 95%);
+    border: 2px solid hsl(263, 68%, 65%);
 
+}
+
+#g-2,
+#g-3,
+#g-5{
+    border: 2px solid hsl(0, 0%, 81%);
 }
 
 .daniel-info,
@@ -80,8 +86,8 @@
 .daniel-para{
 
     width: 70ch;
-    font-size: 10px;
     opacity: 70%;
+    font-size: 14px;
 
 }
 
@@ -105,6 +111,7 @@
 .jonathan-para{
 
     width: 30ch;
+    font-size: 14px;
 
 }
 
@@ -128,6 +135,8 @@
 .jeanette-para{
 
     width: 28ch;
+    font-size: 14px;
+
 
 }
 
@@ -151,6 +160,8 @@
 .patrick-para{
 
     width: 70ch;
+    font-size: 14px;
+    
 
 }
 
@@ -174,6 +185,8 @@
 .kira-para{
 
     width: 30.5ch;
+    font-size: 14px;
+
 
 }
 

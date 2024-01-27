@@ -6,10 +6,10 @@ body{
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 13px;
 
-    padding: 0;
+    padding: 3.5rem 0 0 0;
     margin: 0;
 
     display: grid;
     justify-content: center;
-    place-items: center;
+    align-items: center;
 }
