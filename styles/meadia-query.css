@@ -1,0 +1,139 @@
+
+
+@media screen and (max-width:500px){
+
+    body{
+
+        padding: 0;
+        margin: 0;
+
+    }
+
+
+    .container{
+
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.8fr 0.5fr 0.5fr 0.5fr 1fr;
+        grid-template-areas: 
+        'one'
+        'two'
+        'three'
+        'four'
+        'five';
+
+        margin: 1rem 0 5rem 0;
+
+        position: relative;
+    }
+
+    .heading{
+
+        font-size: 18px;
+        margin: 0.2rem 0 0.2rem 0;
+        
+    }
+
+    .para{
+
+        font-size: 15px;
+        margin: 0;
+
+    }
+
+    .daniel{
+
+        grid-area: one;
+        width: 40ch;
+
+    }
+
+    .daniel-heading{
+
+        width: 38ch;
+
+    }
+
+    .daniel-para{
+
+        width: 38ch;
+
+    }
+
+    .jonathan{
+
+        grid-area: two;
+        width: 40ch;
+        
+    }
+
+    .jonathan-heading{
+
+        width: 38ch;
+
+    }
+
+    .jonathan-para{
+
+        width: 40ch;
+
+    }
+
+    .jeanette{
+
+        grid-area: three;
+        width: 40ch;
+
+    }
+
+    .jeanette-heading{
+
+        width: 30ch;
+
+    }
+
+    .jeanette-para{
+
+        width: 38ch;
+
+    }
+
+    .patrick{
+
+        grid-area: four;
+        width: 40ch;
+
+    }
+
+    .patrick-heading{
+
+        width: 38ch;
+    
+    }
+
+    .patrick-para{
+
+        width: 38ch;
+
+    }
+
+    .kira{
+
+        grid-area: five;
+        width: 40ch;
+
+    }
+
+    .kira-heading{
+
+        width: 38ch;
+
+    }
+
+    .kira-para{
+
+        width: 39ch;
+
+    }
+}
