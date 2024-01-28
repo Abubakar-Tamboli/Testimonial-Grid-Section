@@ -78,7 +78,7 @@
     background-image: url(../images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     background-position: top right;
-    box-shadow: 1px 2px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.2);
 
     color: hsl(0, 0%, 100%);
     padding: 1.5rem;
@@ -110,7 +110,7 @@
     color: hsl(0, 0%, 100%);
     padding: 1.5rem;
     border-radius: 0.5rem;
-    box-shadow: 1px 2px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.2);
 
     grid-area: two;
 
@@ -136,7 +136,7 @@
     color: hsl(219, 29%, 14%);
     padding: 1.5rem;
     border-radius: 0.5rem;
-    box-shadow: 1px 2px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.2);
 
     grid-area: three;
 
@@ -162,7 +162,7 @@
     color: hsl(0, 0%, 100%);
     padding: 1.5rem;
     border-radius: 0.5rem;
-    box-shadow: 1px 2px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.2);
 
     grid-area: four;
 
@@ -188,7 +188,7 @@
     color: hsl(219, 29%, 14%);
     padding: 1.5rem;
     border-radius: 0.5rem;
-    box-shadow: 0 5px 100px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 80px rgba(0, 0, 0, 0.2);
 
     grid-area: five;
 
